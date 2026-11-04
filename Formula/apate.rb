@@ -1,13 +1,13 @@
 class Apate < Formula
   desc "Declarative API mocking server"
   homepage "https://github.com/rustrum/apate"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/rustrum/apate/releases/download/v#{version}/apate-aarch64-apple-darwin.tar.gz"
-      sha256 "ee8214abbe9d72698e1523053bdbb596b1e6cd6c8c3f071ce165c4d2462716e2"
+      sha256 "c82abde7566e11d3954963153f5d47ec5f422a9968dd18c68b71e7c4c3215c2a"
     end
 
     on_intel do
@@ -18,12 +18,12 @@ class Apate < Formula
   on_linux do
     on_intel do
       url "https://github.com/rustrum/apate/releases/download/v#{version}/apate-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "dda8a099ddb42f879f85c52576bc79bc845d3d8a29df1948f267674b3e5518d5"
+      sha256 "004dd53562616e6a98888aed0023bdac5773484c35901ac9cf91d2db0923377e"
     end
 
     on_arm do
       url "https://github.com/rustrum/apate/releases/download/v#{version}/apate-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c0fb14be71f36477594761f4b589d461e8b8c408c13c0a03040d6778017a5cc1"
+      sha256 "383c01350286d8b5d5ab04cc9bb2c2655ec602d37c7dd224467d5d7950b2f64d"
     end
   end
 
