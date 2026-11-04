@@ -10,6 +10,8 @@ So I have to provide my own keg with formulae that you can tap into your homebre
 
 Or `brew tap rustrum/releases` and then `brew install <formula>`.
 
+You may also need to trust this tap `brew trust rustrum/releases`.
+
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
