@@ -1,13 +1,13 @@
 class Xepak < Formula
   desc "Declarative REST,RPC,MCP server builder. TOML-backed DSL with optional Lua scripting. SQLite-based."
   homepage "https://github.com/rustrum/xepak"
-  version "0.0.10-rc"
+  version "0.1.0"
   license any_of: ["MIT", :cannot_represent]
 
   on_macos do
     on_arm do
       url "https://github.com/rustrum/xepak/releases/download/v#{version}/xepak-aarch64-apple-darwin.tar.gz"
-      sha256 "7a02825e631714ea4d9716b21aad0d5e78959ae995bdbd5b32e9daa610c5b6a5"
+      sha256 "5d246c91d5713c8e208bf20b8613429eec627301c61c9f8271fae675b7e13897"
     end
 
     on_intel do
@@ -18,12 +18,12 @@ class Xepak < Formula
   on_linux do
     on_intel do
       url "https://github.com/rustrum/xepak/releases/download/v#{version}/xepak-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "f0da9e7470407ecb7314fb18f790d04d305ce8d5d46d1552e0134ce8831f0639"
+      sha256 "0f991aff164fdfb693e41d95b4c26b9cb1c78d639757f922fa03aaa746ec2ade"
     end
 
     on_arm do
       url "https://github.com/rustrum/xepak/releases/download/v#{version}/xepak-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0e5bfaf89b0af7449df69b27908385e3849cccb1356ade0124c7535f66703816"
+      sha256 "f0d9939c8a7f5be73a6cb48b1f58a20657dcab6eef1331b7294caa9181b315a2"
     end
   end
 
